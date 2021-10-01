@@ -1,0 +1,605 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="act.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>WeCare</title>
+  <style>
+    body {
+      background-image: url(https://wallpapercave.com/wp/wp2968489.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    #icons {
+      font-size: 140%;
+    }
+
+    #ab {
+      color: aqua;
+    }
+
+    strong {
+      color: aquamarine;
+    }
+
+    span {
+      color: gray;
+    }
+
+    .text-white {
+      text-decoration: none;
+    }
+
+    .ss {
+      font-size: 60px;
+      color: gray;
+    }
+
+    .ss:hover {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgba(0, 255, 255,0.7);">
+    <div class="container-fluid">
+      <h1><i class="fa fa-heartbeat" id="icons"></i> <span>We</span>CARE<span>.</span></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-3">
+          <li class="nav-item px-3">
+            <a href="#" class="btn btn-outline-secondary active" role="button" data-bs-toggle="button">HOME</a>
+          </li>
+          <li class="nav-item px-3">
+            <a href="#" class="btn btn-outline-secondary " role="button" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">STATS</a>
+            <div class="offcanvas offcanvas-start bg-info bg-gradient" data-bs-scroll="true" tabindex="-1"
+              id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header">
+                <h1 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">STATISTICS</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="alert alert-primary d-flex align-items-center" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                  class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
+                  aria-label="Warning:">
+                  <path
+                    d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+                <div>
+                  The data is based on sources from internet and may not be exact !!
+                </div>
+              </div>
+              <div class="offcanvas-body">
+                <p>
+                <h4>Below is the statistics of women suffering from various health problems around the world.</h4>
+                </p>
+                Breast Cancer
+                <div class="progress">
+                  <div class="progress-bar bg-secondary" role="progressbar" style="width: 17%;" aria-valuenow="17"
+                    aria-valuemin="0" aria-valuemax="100">17%</div>
+                </div><br>
+                Cervical Cancer
+                <div class="progress">
+                  <div class="progress-bar bg-secondary" role="progressbar" style="width: 3%;" aria-valuenow="3"
+                    aria-valuemin="0" aria-valuemax="100">3%</div>
+                </div><br>
+                Mental Illness
+                <div class="progress">
+                  <div class="progress-bar bg-secondary" role="progressbar" style="width: 14%;" aria-valuenow="14"
+                    aria-valuemin="0" aria-valuemax="100">14%</div>
+                </div><br>
+                Depression
+                <div class="progress">
+                  <div class="progress-bar bg-secondary" role="progressbar" style="width: 11%;" aria-valuenow="11"
+                    aria-valuemin="0" aria-valuemax="100">11%</div>
+
+                </div><br>
+                Infertility
+                <div class="progress">
+                  <div class="progress-bar bg-secondary" role="progressbar" style="width: 16%;" aria-valuenow="16"
+                    aria-valuemin="0" aria-valuemax="100">16%</div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          
+          <li class="nav-item px-3">
+            <a href="#" class="btn btn-outline-secondary " role="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" type="button" aria-controls="offcanvasRight">NEED HELP?</a>
+
+            <div class="offcanvas offcanvas-end bg-info bg-gradient" tabindex="-1" id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h1 id="offcanvasRightLabel">HELPLINE</h1>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <h3>Below are some national women helpline contacts in INDIA.</h3><br><br>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  AMBULANCE
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Ambulance Service</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h1>102</h1>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="tel:102"><button type="button" class="btn btn-primary"><i class="fa fa-phone"> Call</i>
+                          </button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><br><br>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop1">
+                  WOMEN HELPLINE
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Women Helpline Number For Women In Distress
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h1>1091</h1>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="tel:1091"><button type="button" class="btn btn-primary"><i class="fa fa-phone">
+                              Call</i>
+                          </button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><br><br>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop2">
+                  DOMESTIC ABUSE HELPLINE
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Women Helpine Number For Domestic Abuse</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h1>181</h1>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="tel:181"><button type="button" class="btn btn-primary"><i class="fa fa-phone"> Call</i>
+                          </button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><br><br>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop3">
+                  NCW
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">National Commission For Women</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h1>011-26942369</h1>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="tel:011-26942369"><button type="button" class="btn btn-primary"><i class="fa fa-phone">
+                              Call</i>
+                          </button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div><br><br>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop4">
+                  NHRC
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">National Human Right Commision</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <h1>011-23385368</h1>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="tel:011-23385368"><button type="button" class="btn btn-primary"><i class="fa fa-phone">
+                              Call</i>
+                          </button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="nav-item px-3">
+            <a href="#" class="btn btn-outline-secondary " type="button" role="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">CONTACT US</a>
+
+            <div class="offcanvas offcanvas-bottom bg-info bg-gradient" tabindex="-1" id="offcanvasBottom"
+              aria-labelledby="offcanvasBottomLabel">
+              <div class="offcanvas-header text-center">
+                <h1 class="offcanvas-title text-center mx-auto" id="offcanvasBottomLabel">CONTACT US VIA</h1>
+                <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body small text-center">
+                <a href="https://www.facebook.com" class="ss px-3"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.google.com" class="ss px-3"><i class="fa fa-google"></i></a>
+                <a href="https://www.youtube.com" class="ss px-3"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.twitter.com" class="ss px-3"><i class="fa fa-twitter"></i></a>
+                <a href="mailto:support@wecare.com" class="ss px-3"><i class="fa fa-envelope"></i></a>
+                <a href="tel:+91 22-27782183" class="ss px-3"><i class="fa fa-phone"></i></a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a href="register.html"><button class="btn btn-outline-secondary me-md-2" type="button">REGISTER</button></a>
+          <a href="login.html"><button class="btn btn-outline-secondary" type="button">LOGIN</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://womensbusinessnetwork.ca/wp-content/uploads/uterus.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.huffpost.com/gen/2459034/images/o-DOCTOR-PATIENT-IPAD-facebook.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://shcc.ufl.edu/files/2014/01/NCCC_January_Poster2-e1389207307220.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card" style="background-color: rgba(0, 255, 255,0.7);">
+        <img src="https://www.divakarshospital.com/wp-content/uploads/2020/06/blogimg.jpg" class="card-img-top"
+          alt="...">
+        <div class="card-body">
+          <h1 class="card-title">Menstural Health and Hygiene</h1>
+          <p class="card-text">Menstrual hygiene management or menstrual health and hygiene refers to access to
+            menstrual hygiene products to
+            absorb or collect the flow of blood during menstruation, privacy to change the materials, and access to
+            facilities to dispose of used
+            menstrual management materials.Menstrual hygiene management (MHM) is an essential aspect of hygiene for
+            women and adolescent girls
+            between menarche and menopause.
+            Menstruation necessitates the availability of material resources to absorb or collect menstrual blood,
+            facilitate personal hygiene
+            and dispose of waste, ideally with adequate privacy. Women and girls in low income settings have low
+            awareness on hygienic practices
+            and lack culturally appropriate materials for menstrual hygiene management (MHM) practices. </p>
+          <div class="d-grid gap-2 ">
+            <a href="https://en.wikipedia.org/wiki/Menstrual_hygiene_management"><button
+                class="btn btn-outline-secondary btn-lg" type="button">Learn More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="background-color: rgba(0, 255, 255,0.7);">
+        <img src="https://femina.wwmindia.com/content/2021/feb/health-011612235914.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h1 class="card-title">Reproductive Health</h1>
+          <p class="card-text">Within the framework of the World Health Organization's (WHO) definition of health as "a
+            state of complete physical,
+            mental and social well-being, and not merely the absence of disease or infirmity," reproductive health, or
+            sexual health/hygiene,
+            addresses the reproductive processes, functions and system at all stages of life.
+            Reproductive health implies that people are able to have a responsible, satisfying, healthy reproductive
+            system and safer sex life
+            and that they have the capability to reproduce and the freedom to decide if, when and how often to do so.
+            One interpretation of this
+            implies that men and women should be informed of and have access to safe, effective, affordable and
+            acceptable methods of birth control; also access to appropriate health care services of sexual, reproductive
+            medicine and implementation of health education programs to stress the importance of women to go safely
+            through pregnancy and childbirth could provide couples with the best chance of having a healthy infant.
+            According to the American College of Obstetricians and Gynecologists, fertility starts to drop considerably
+            around the age of 32, and
+            around 37, it has a particularly deep nose dive.By age 44, chances of spontaneous pregnancy approach
+            zero. As such, women are often
+            told to have children before the age of 35, and pregnancy after 40 is considered a high risk.
+          </p>
+          <div class="d-grid gap-2 ">
+            <a href="https://en.wikipedia.org/wiki/Reproductive_health"><button class="btn btn-outline-secondary btn-lg"
+                type="button">Learn More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="background-color: rgba(0, 255, 255,0.7);">
+        <img src="https://wrda.net/wp-content/uploads/2017/02/Hello-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h1 class="card-title">Breast and Cervical Cancer</h1>
+          <p class="card-text">Breast and cervical cancers are among the most frequent and most fatal cancers in women.
+            Life span of patients may be increased and quality of life improved through early diagnosis and treatment.
+            This investigation was performed in order to determine knowledge and practices of female health personnel
+            working at a university hospital regarding breast and cervical cancers.
+            Cervical cancer is a cancer arising from the cervix.It is due to the abnormal growth of cells that have the
+            ability to invade or spread to other parts of the body.Early on, typically no symptoms are seen. Later
+            symptoms
+            may include abnormal vaginal bleeding, pelvic pain or pain during sexual intercourse.
+            While bleeding after sex may not be serious, it may also indicate the presence of cervical cancer.
+            Breast cancer is cancer that develops from breast tissue.Signs of breast cancer may include a lump in the
+            breast,
+            a change in breast shape, dimpling of the skin, fluid coming from the nipple, a newly inverted nipple, or a
+            red
+            or scaly patch of skin.In those with distant spread of the disease, there may be bone pain, swollen lymph
+            nodes,
+            shortness of breath, or yellow skin.</p>
+          <div class="d-grid gap-2 ">
+            <a href="https://en.wikibooks.org/wiki/Sexual_Health/Cancer"><button
+                class="btn btn-outline-secondary btn-lg" type="button">Learn More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="background-color: rgba(0, 255, 255,0.7);">
+        <img
+          src="https://images.onlymyhealth.com/imported/images/2020/May/14_May_2020/image-1575357403532000-qdec7rmis1.jpg"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h1 class="card-title">Mental Health</h1>
+          <p class="card-text">One of the greatest challenges facing the health care industry is the fight against
+            mental illness.
+            To begin with, serious conditions such as schizophrenia, bipolar disorder, depression, and anxiety are often
+            difficult to diagnose.
+            But perhaps the most daunting obstacle to treatment of mental health disorders is the societal stigma
+            attached to the diseases.
+            The reluctance of patients to seek treatment for mental health disorders disproportionately affects women,
+            in large part because
+            women are more susceptible than men to many common mental health conditions.The potential impact of the
+            COVID-19 pandemic on mental
+            health should not be neglected, especially in vulnerable populations. Pregnant and breastfeeding women are
+            facing numerous life
+            changes that make them particularly vulnerable to mental health disorders. According to the World Health
+            Organization, <br>about 10% of
+            pregnant women and 13% of (recent) mothers experience a mental disorder, primarily depression.
+
+          </p>
+          <div class="d-grid gap-2 ">
+            <a href="https://www.nimh.nih.gov/health/topics/women-and-mental-health/"><button
+                class="btn btn-outline-secondary btn-lg" type="button">Learn More</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="act">
+    <div class="wrap"  >
+      <h1 >Our Departments</h1>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card" style="border-radius: 5%; background-color: rgba(0, 255, 255,0.2); border:2px solid black; margin-bottom: 5vh;">
+            <div class="card-body">
+              <h2 class="card-title">Oncology Department</h2>
+              <p class="card-text">This department specializes in the diagnosis, management and treatment of cancer.It
+                offers a variety of drugs,
+                biological targeted therapies, chemotherapy and immunotherapy.
+              </p>
+              <a href="#" class="btn btn-secondary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card"
+            style="border-radius: 5%; background-color: rgba(0, 255, 255,0.2); border:2px solid black;">
+            <div class="card-body">
+              <h2 class="card-title">Psychiatry Department</h2>
+              <p class="card-text">This department cares for people suffering from mental illness and emotional
+                problems, including
+                anxiety disorders, depresssion, sleep disorders. </p>
+              <a href="#" class="btn btn-secondary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card" style="border-radius: 5%; background-color: rgba(0, 255, 255,0.2); border:2px solid black;">
+            <div class="card-body">
+              <h2 class="card-title">Gynecology Department</h2>
+              <p class="card-text">Treatment of conditions and diseases of the female reproductive organs, including
+                breasts, vagina, uterus
+                cervix, and fallopian tubes takes place in this department.
+              </p>
+              <a href="#" class="btn btn-secondary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card" style="border-radius: 5%; background-color: rgba(0, 255, 255,0.2); border:2px solid black;">
+            <div class="card-body">
+              <h2 class="card-title">Counselling Department</h2>
+              <p class="card-text">This deparment counsel and advices women on various issues, including physical and
+                mental health issues
+                and family and marriage problems.
+
+              </p>
+              <a href="#" class="btn btn-secondary">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="act">
+    <div class="wrap">
+      <h1>Feeling Depressed ?</h1>
+      <p>If you are not feeling well, suffering from depression or any kind of health issues.<br> Talk to us and share
+        your problems. We are here to solve your problems.</p>
+      <div class="input-group">
+        <span class="input-group-text">NAME</span>
+        <input type="text" aria-label="First name" class="form-control" placeholder="First Name">
+        <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name">
+      </div><br>
+
+      <div class="input-group" style="height: 20vh;">
+        <span class="input-group-text">PROBLEM</span>
+        <textarea class="form-control" aria-label="With textarea" placeholder="Write your problem here..."></textarea>
+      </div><br>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Marital Status</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Select your marital status...</option>
+          <option value="1">Married</option>
+          <option value="2">Unmarried</option>
+          <option value="3">Divorced</option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect02">AGE</label>
+        <select class="form-select" id="inputGroupSelect02" aria-label="Default select example">
+          <option selected>Select your age group</option>
+          <option value="1">Below 18</option>
+          <option value="2">18-25</option>
+          <option value="3">26-35</option>
+          <option value="3">36-45</option>
+          <option value="3">46-55</option>
+          <option value="3">55 above</option>
+        </select>
+      </div><br>
+      <button type="submit" class="btn btn-secondary">SUBMIT</button>
+    </div>
+  </div>
+  <footer style="background-color: #2c292f">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-4 text-center text-md-left ">
+
+          <div class="py-0">
+            <h3 id="ab">About <i class="fa fa-heartbeat" id="icon"></i> <strong>We</strong>CARE<strong>.</strong></h3>
+
+            <p class="footer-links font-weight-bold">
+              <a class="text-white" href="#">HOME &#124;</a>
+
+              <a class="text-white" href="#">ABOUT &#124;</a>
+
+              <a class="text-white" href="#">TERMS &#124;</a>
+
+              <a class="text-white" href="#">POLICIES</a>
+            </p>
+            <p class="text-light py-4 mb-4">&copy;2021 WeCARE Women Health Solutions Pvt. Ltd.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-white text-center text-md-left ">
+          <div class="py-2 my-4">
+
+            <div>
+              <p><i class="fa fa-phone  mx-2 "></i> +91 22-27782183</p>
+            </div>
+            <div>
+              <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:support@wecare.com"
+                  style="text-decoration: none; color: aquamarine;">support@wecare.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-white my-4 text-center text-md-left ">
+          <span class=" font-weight-bold ">About Us</span>
+          <p class="text-info my-2">We provide information on health related issues of women as well as help them in
+            every possible way.</p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

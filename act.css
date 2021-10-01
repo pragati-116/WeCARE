@@ -1,0 +1,22 @@
+#act{
+    padding: 60px 0;
+    text-align: center;
+    background-color: rgba(0, 255, 255,0.4);
+}
+#act p{
+    font-size: larger;
+    font-weight: bold;
+}
+#act h1{
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 2px solid black;
+    padding: 0 0 20px 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 940px;
+}
